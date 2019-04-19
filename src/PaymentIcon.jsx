@@ -133,14 +133,14 @@ const PaymentIcon = ({
     src={getPaymentImage(id, transparent)}
     style={style}
     className={className}
-    alt={`${id} payment icon`}
+    alt={`${icon} payment icon`}
   />
 );
 
 PaymentIcon.propTypes = {
   style: PropTypes.object,
   className: PropTypes.string,
-  id: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
   transparent: PropTypes.bool,
 };
 

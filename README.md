@@ -1,6 +1,6 @@
 # React Payment Icons
 
-Library to get payment method icons
+Library to get the most popular payment icons brands
 
 ## How to use
 
@@ -10,15 +10,25 @@ Using this component on your project.
   import PaymentIcon from 'react-payment-icons';
 
   <PaymentIcon
-    id="visa"
+    icon="visa"
     style={{ margin: 10, width: 100 }}
-    className="payment-icon"
   />
 ```
 
-## Payment Icon IDs
+## Props
 
-### Supported Flags
+Below the list of the available props:
+
+| Name        | Type    | Default | Description                                               |
+|-------------|---------|---------|-----------------------------------------------------------|
+| icon        | String  |         | The payment icon that you wanna render                    |
+| style       | Object  |         | CSS style object                                          |
+| className   | String  |         | HTML class for you to customize with your own CSS         |
+| transparent | Boolean | false   | If true, will render the icon with transparent background |
+
+## Payment Icons
+
+### Supported Brands
 
 - aura
 - amex
@@ -47,7 +57,7 @@ Using this component on your project.
 - western
 - wirecard
 
-### Supported Facilitators
+### Supported Payment Facilitators
 
 - adyen
 - amazon
@@ -76,7 +86,3 @@ Using this component on your project.
 - hsbc
 - itau
 - santander
-
-### Supported Unknown Images
-
-- generic
