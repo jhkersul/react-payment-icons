@@ -1,0 +1,53 @@
+{
+  "name": "react-payment-icons",
+  "version": "1.2.6",
+  "description": "Payment Icons for React applications",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test -- --watch",
+    "start": "webpack-dev-server --config ./webpack.dev.js --mode development",
+    "lint": "eslint",
+    "build": "webpack --config ./webpack.prod.js --mode production"
+  },
+  "author": "AZPAY Team",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git.azlabs.com.br/kersul/react-payment-icons.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.5.0",
+    "svg-inline-loader": "^0.8.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "watch": "^1.0.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
