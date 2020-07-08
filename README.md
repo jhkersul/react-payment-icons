@@ -1,4 +1,4 @@
-# React Payment Icons
+# React Payment Icons [ARCHIVED]
 
 Library to get the most popular payment icons brands
 
